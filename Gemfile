@@ -34,6 +34,8 @@ gem 'bootstrap-sass'
 # CSS
 gem 'devise'
 # login system
+gem 'simple_form'
+# make form simple
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
