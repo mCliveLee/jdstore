@@ -38,6 +38,10 @@ gem 'simple_form'
 # make form simple
 gem 'font-awesome-rails'
 # fonts
+gem 'carrierwave'
+
+gem 'mini_magick'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
