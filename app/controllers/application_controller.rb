@@ -13,6 +13,12 @@ class ApplicationController < ActionController::Base
     @current_cart ||= find_cart
   end
 
+  def clean
+    current_cart.clean!
+    flash[:warning] = "已清空购物车"
+    redirect_to carts_path
+  end
+
   private
 
   def find_cart
