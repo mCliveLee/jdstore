@@ -1,5 +1,5 @@
 class CartsController < ApplicationController
-  def method_name
+  def checkout
     @order = Order.new
   end
 end
