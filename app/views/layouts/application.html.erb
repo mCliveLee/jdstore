@@ -6,6 +6,9 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <!-- add this script in bxslider.js file -->
+    <!-- <script src="http://bxslider.com/lib/jquery.bxslider.js"></script> -->
   </head>
 
   <body>
@@ -13,8 +16,9 @@
       <%= render "common/navbar" %>
       <%= render "common/flashes" %>
       <%= yield %>
+
     </div>
 
-    <%= render "common/footer" %>
+    <!-- <*%= render "common/footer" %> -->
   </body>
 </html>
