@@ -37,7 +37,7 @@ gem 'simple_form'
 # make form simple
 gem 'font-awesome-rails'
 # fonts
-#gem 'awesome_rails_console'
+gem 'awesome_rails_console'
 # for rails c
 gem 'carrierwave'
 
@@ -76,4 +76,7 @@ group :development, :test do
   gem 'hirb-unicode'
   gem 'pry-byebug'
   gem 'pry-stack_explorer'
+end
+
+group :development, :test do
 end
