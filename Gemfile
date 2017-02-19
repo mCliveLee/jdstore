@@ -45,6 +45,8 @@ gem 'mini_magick'
 # for image upload
 gem 'letter_opener', group: :development
 # letter sys
+gem 'aasm'
+# state machines
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
