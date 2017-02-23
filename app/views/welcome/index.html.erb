@@ -1,44 +1,183 @@
-<!-- <div class="author">
-  <p>Inspired by <a target="_blank" href="https://dribbble.com/shots/3116361-Serif-Combos">Spelar</a></p>
-</div> -->
+<%= render "common/slideshow" %>
 
-<div class="slick-slider">
-  <li>
-    <div class="full-card">
+<div class="container">
 
-      <div class="font-card Bookcard_BlackSwan">
-        <!-- <h3 class="font-robotoslab">Black Swan</h3> -->
-        <!-- <p class="font-roboto">Black Swan...</p> -->
-        <a target="_blank" href= <%= product_path(Product.find_by(title: "The Black Swan")) %> class="explore-button">Explore</a>
+  <!-- goods shelf line 1-->
+  <div>
+    <div class="nav nav-tabs" style="bottom: 3px;">
+      <li role="presentation" class="active">
+        <a href="#">book_category</a>
+      </li>
+      <p class="tabs-text-CL">more..</p>
+    </div>
+    <!-- <br> -->
+    <div class="row">
+      <!-- No.1 -->
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="https://ww2.sinaimg.cn/large/006tKfTcgy1fcrwuw8k1tj30rs0rs41k.jpg" alt="...">
+        </a>
+
+        <div class="panel">
+          <h5>
+            <span class="slider">
+              <a href="#" rel="author">
+                Books_name
+              </a>
+            </span>
+          </h5>
+          <h6 class="subheader">RMB 99.00</h6>
+        </div>
+
       </div>
 
-      <div class="font-card Bookcard_Antifragile">
-        <!-- <h3 class="font-roboto">Antifragile</h3> -->
-        <!-- <p class="font-roboto">Antifragile...</p> -->
-        <a target="_blank" href= <%= product_path(Product.find_by(title: "Antifragile")) %> class="explore-button">Explore</a>
+      <!-- No.2 -->
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="https://ww2.sinaimg.cn/large/006tKfTcgy1fcrwuw8k1tj30rs0rs41k.jpg" alt="...">
+        </a>
+
+        <div class="panel">
+          <h5>
+            <span class="slider">
+              <a href="#" rel="author">
+                Books_name
+              </a>
+            </span>
+          </h5>
+          <h6 class="subheader">RMB 99.00</h6>
+        </div>
+
       </div>
 
-      <div class="font-card Bookcard_Fooled_by_Randomness">
-        <!-- <h3 class="font-robotoslab">Randomness</h3> -->
-        <!-- <p class="font-roboto">Fooled by Randomness...</p> -->
-        <a target="_blank" href= <%= product_path(Product.find_by(title: "Fooled by Randomness")) %> class="explore-button">Explore</a>
+      <!-- No.3 -->
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="https://ww2.sinaimg.cn/large/006tKfTcgy1fcrwuw8k1tj30rs0rs41k.jpg" alt="...">
+        </a>
+
+        <div class="panel">
+          <h5>
+            <span class="slider">
+              <a href="#" rel="author">
+                Books_name
+              </a>
+            </span>
+          </h5>
+          <h6 class="subheader">RMB 99.00</h6>
+        </div>
+
       </div>
 
+      <!-- No.4 -->
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="https://ww2.sinaimg.cn/large/006tKfTcgy1fcrwuw8k1tj30rs0rs41k.jpg" alt="...">
+        </a>
+
+        <div class="panel">
+          <h5>
+            <span class="slider">
+              <a href="#" rel="author">
+                Books_name
+              </a>
+            </span>
+          </h5>
+          <h6 class="subheader">RMB 99.00</h6>
+        </div>
+
+      </div>
     </div>
-  </li>
+  </div>
 
-  <li>
-    <div class="full-card">
+  <hr>
 
+  <div>
 
+    <!-- goods shelf line 2-->
+    <div class="nav nav-tabs" style="bottom: 3px;">
+      <li role="presentation" class="active">
+        <a href="#">book_category</a>
+      </li>
+      <p class="tabs-text-CL">more..</p>
     </div>
-  </li>
 
+    <div class="row">
+      <!-- No.1 -->
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="https://ww1.sinaimg.cn/large/006tKfTcgy1fcspsars8kj30rs0rsgph.jpg" alt="...">
+        </a>
 
-  <li>
-    <div class="full-card">
+        <div class="panel">
+          <h5>
+            <span class="slider">
+              <a href="#" rel="author">
+                Books_name
+              </a>
+            </span>
+          </h5>
+          <h6 class="subheader">RMB 99.00</h6>
+        </div>
 
+      </div>
 
+      <!-- No.2 -->
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="https://ww1.sinaimg.cn/large/006tKfTcgy1fcspsars8kj30rs0rsgph.jpg" alt="...">
+        </a>
+
+        <div class="panel">
+          <h5>
+            <span class="slider">
+              <a href="#" rel="author">
+                Books_name
+              </a>
+            </span>
+          </h5>
+          <h6 class="subheader">RMB 99.00</h6>
+        </div>
+
+      </div>
+
+      <!-- No.3 -->
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="https://ww1.sinaimg.cn/large/006tKfTcgy1fcspsars8kj30rs0rsgph.jpg" alt="...">
+        </a>
+
+        <div class="panel">
+          <h5>
+            <span class="slider">
+              <a href="#" rel="author">
+                Books_name
+              </a>
+            </span>
+          </h5>
+          <h6 class="subheader">RMB 99.00</h6>
+        </div>
+
+      </div>
+
+      <!-- No.4 -->
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="https://ww1.sinaimg.cn/large/006tKfTcgy1fcspsars8kj30rs0rsgph.jpg" alt="...">
+        </a>
+
+        <div class="panel">
+          <h5>
+            <span class="slider">
+              <a href="#" rel="author">
+                Books_name
+              </a>
+            </span>
+          </h5>
+          <h6 class="subheader">RMB 99.00</h6>
+        </div>
+
+      </div>
     </div>
-  </li>
+  </div>
 </div>
